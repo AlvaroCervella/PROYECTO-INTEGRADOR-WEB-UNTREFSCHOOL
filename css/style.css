@@ -1,0 +1,744 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+
+    /* MENU */
+
+header {
+    background-color: #00425A;
+    width: 100%;
+}
+.top-menu {
+    background-color: #00425A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+
+}
+
+.menu-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-links li {
+    list-style: none;
+    margin: 10px;
+    color: #EFF5F5;
+}
+
+.menu-links li a {
+    color: #EFF5F5;
+    text-decoration: none;
+}
+
+.menu-links li a:hover {
+    color: #FC7300;
+}
+
+.btn {
+    background-color: #EFF5F5;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    padding: 9px 20px;
+    border: none;
+}
+
+.btn a {
+    color: #00425A;
+    text-decoration: none;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/*BANNER TITULO*/
+
+.image-title {
+    width: 100%;
+    height: 350px;
+    background-image: linear-gradient(rgba(68, 68, 68, 0.5), rgba(255, 255, 255, 0.5)),  url(../img/escuela-fachada-2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-principal {
+    font-size: 5rem;
+    text-shadow: 1px 1px 10px  #1F8A70;
+    font-family: 'Belanosima', sans-serif;
+    color: #181823;
+}
+
+.title-principal:hover {
+    transform: scale(1.5);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+/*SECCIONES*/
+
+.section01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 60px;
+}
+
+.container1 {
+    width: 600px;
+    height: 400px;
+    background-image: url(../img/primaria-3.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+
+}
+
+.container-text {
+    text-align: end;
+    width: 600px;
+    height: 400px;
+}
+
+.container-text h2 {
+    color: #00425A;
+    font-size: xxx-large;
+    padding-bottom: 35px;
+}
+
+.container-text p {
+    padding: 10px;
+
+    
+}
+
+.section02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 60px;
+}
+
+.container2 {
+    width: 600px;
+    height: 400px;
+    background-image: url(../img/escuela-fachada-1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    
+}
+
+.container-text2 {
+    text-align: start;
+    width: 600px;
+    height: 400px;
+}
+
+.container-text2 h2 {
+    color: #00425A;
+    font-size: xxx-large;
+    padding-bottom: 35px;
+}
+
+.container-text2 p {
+    padding: 10px
+}
+
+.section-propuesta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 60px;
+}
+
+.container3 {
+    width: 600px;
+    height: 600px;
+    margin: 20px;
+}
+
+.single-image-01 {
+    background-image: url(../img/primaria-2.jpeg);
+    width: 400px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.single-image-02 {
+    background-image: url(../img/primaria-1.png);
+    width: 400px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.container-text3 {
+    text-align: end;
+    width: 600px;
+    height: 600px;
+}
+
+.container-text3 h2 { 
+    color: #00425A;
+    font-size: xx-large;
+    padding-bottom: 35px;
+}
+
+.container-text3 p {
+    color: #00425A;
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 20%;
+}
+
+.container-text3 ul {
+    text-align: left;
+    padding-left: 20%;
+}
+
+/*ULTIMAS NOTICIAS*/
+
+.section-noticias {
+    padding-bottom: 30px;
+}
+
+.title-ultimas-noticias {
+    text-align: center;
+    color: #00425A;
+    font-size: xx-large;
+    margin-bottom: 15px;
+}
+
+.container-card {
+    width: 100%;
+    /*max-width: 1200px;*/
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container-card .card-news {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container-card .card-news:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container-card .card-news img {
+    width: 330px;
+    height: 220px;
+}
+
+.container-card .card-news h4 {
+    font-weight: 600;
+    color: #00425A;
+    font-size: large;
+}
+
+.container-card .card-news p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.btn-news {
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    padding: 9px 20px;
+    border: none;
+    background-color: #00425A;
+    margin: 10px;
+}
+
+.container-card .card-news a {
+    text-decoration: none;
+    color: #EFF5F5;
+
+}
+.container-card .card-news a:hover {
+    color: #FC7300;
+}
+
+/*FOOTER*/
+
+.footer {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 100%;
+    background-color: #00425A;
+    color: #EFF5F5;
+    justify-content: space-around;
+}
+
+.footer { 
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.social-media h3 {
+padding: 30px;
+font-size: x-large;
+}
+
+.social-media svg {
+    padding: 10px;
+}
+
+
+.title-footer h3 {
+    font-family: 'Belanosima', sans-serif;
+    padding: 30px;
+    font-size: 24pt;
+}
+
+.contact-footer h3 {
+    padding: 30px;
+    font-size: x-large;
+}
+
+.contact-footer p {
+    padding: 30px;
+}
+
+/*PAGE FORMULARIO*/
+
+.title-contact {
+    font-size: 400;
+    text-align: center;
+}
+
+/*FORMULARIO*/
+
+.section-form {
+    /*display: flex;*/
+    width: 100%;
+    margin: 1rem;
+}
+
+.form {
+    background-color: #00425A;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    max-width: 400px;
+    padding: 3.5em 1.5em;
+}
+
+.form-container {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.title-contact {
+    color: #EFF5F5;
+    padding: 1rem;
+}
+
+.form-input {
+    font-size: 1rem;
+    padding: .8em 1em;
+}
+
+.form-input-message {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.form-btn {
+    font-size: 1rem;
+    background-color: #1F8A70;
+    color: #EFF5F5;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.form-btn:hover {
+    color: #FC7300;
+}
+
+/*RESPONSIVE*/
+
+#btn-menu-mobile {
+        display: none;
+    }
+
+header label {
+        display: none;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        border-right: 1px solid #EFF5F5;
+        background-color: #00425A;
+    }
+
+header label:hover {
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+#list-contact-responsive {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    header label {
+        display: block;
+    }
+
+    .top-menu {
+        display: list-item;
+        position: absolute;
+        background-color: #00425A;
+        width: 70%;
+        height: auto;
+        margin-left: -70%;
+    }
+
+    #list-contact-responsive {
+        display: block;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .top-menu ul {
+        flex-direction: column;
+    }
+
+    .top-menu li {
+        border-bottom: 1px solid #EFF5F5;
+    }
+
+    #btn-menu-mobile:checked ~ .top-menu {
+        margin: 0;
+    }
+    
+    .image-title {
+        width: 100%;
+        height: 200px;
+        background-size: 100%;
+    }
+
+    .title-principal {
+        font-size: 2rem;
+    }
+
+    .container1 {
+        width: 30%;
+        height: 400px;
+        background-image: url(../img/primaria-3.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .container-text {
+        text-align: center;
+        width: 70%;
+        height: auto;
+    }
+    
+    .container-text h2 {
+        color: #00425A;
+        font-size: 2rem;
+        padding-bottom: 15px;
+    }
+    
+    .section02 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: 20px;
+    }
+    
+    .container2 {
+        width: 30%;
+        height: 400px;
+        background-image: url(../img/escuela-fachada-1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .container-text2 {
+        text-align: center;
+        width: 70%;
+        height: auto;
+    }
+    
+    .container-text2 h2 {
+        color: #00425A;
+        font-size: 2rem;
+        padding-bottom: 15px;
+    }
+    
+    .section-propuesta {
+        display: flex;
+        justify-content: center;
+        background-color: #00425A;
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .container3 {
+        display: none;
+        
+    }
+    
+    .single-image-01 {
+        display: none;
+    }
+    
+    .single-image-02 {
+        display: none;
+    }
+    .container-text3 {
+        text-align: center;
+        width: 80%;
+        height: auto;
+    }
+    
+    .container-text3 h2 { 
+        color: #EFF5F5;
+        font-size: 2rem;
+    }
+    
+    .container-text3 p {
+        color:  #EFF5F5;
+        text-align: left;
+    }
+    
+    .container-text3 ul {
+        text-align: left;
+        padding-left: 10%;
+    }
+
+    .container-card {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 20px;
+    }
+
+    .card-news-3 {
+        display: none;
+    }
+
+    .footer {
+        position: absolute;
+        display: flex;
+        width: 100%;
+        background-color: #00425A;
+        color: #EFF5F5;
+        overflow: hidden;
+    }
+
+    .footer { 
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .social-media h3 {
+        font-size: 1rem;
+    }
+
+    .title-footer h3 {
+        font-family: 'Belanosima', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .contact-footer h3 {
+        font-size: 1rem;
+    }
+
+    .contact-footer p {
+        font-size: 0.5rem;
+    }
+
+    .mapouter {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .image-title {
+        display: none;
+    }
+
+    
+    .title-principal {
+        font-size: 1.5rem;
+    }
+
+    .container1 {
+        display: none;
+    }
+    
+    .container-text {
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    .container-text h2 {
+        color: #00425A;
+        font-size: 1.5rem;
+        padding-bottom: 15px;
+    }
+
+    
+    .section02 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: 20px;
+    }
+    
+    .container2 {
+        display: none;
+    }
+    
+    .container-text2 {
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    .container-text2 h2 {
+        color: #00425A;
+        font-size: 1.5rem;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    
+    .section-propuesta {
+        display: flex;
+        justify-content: center;
+        background-color: #00425A;
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .container3 {
+        display: none;
+        
+    }
+    
+    .single-image-01 {
+        display: none;
+    }
+    
+    .single-image-02 {
+        display: none;
+    }
+    .container-text3 {
+        text-align: center;
+        width: 80%;
+        height: auto;
+    }
+    
+    .container-text3 h2 { 
+        color: #EFF5F5;
+        font-size: 2rem;
+    }
+    
+    .container-text3 p {
+        color:  #EFF5F5;
+        text-align: left;
+    }
+    
+    .container-text3 ul {
+        text-align: left;
+        padding-left: 10%;
+    }
+
+    .container-card {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+    .card-news-3 {
+        display: none;
+    }
+    
+    .footer {
+        position: absolute;
+        display: flex;
+        width: 100%;
+        background-color: #00425A;
+        color: #EFF5F5;
+        overflow: hidden;
+    }
+
+    .footer { 
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .social-media h3 {
+        font-size: 1rem;
+    }
+
+    .title-footer h3 {
+        font-family: 'Belanosima', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .contact-footer h3 {
+        font-size: 1rem;
+    }
+
+    .contact-footer p {
+        font-size: 0.5rem;
+    }
+
+    .mapouter {
+        display: none;
+    }
+}
+
+
